@@ -1,13 +1,13 @@
 <?
-    
+    echo "<table border=1 width=1000>";
     for($i=1;$i<=9;$i++){
-        echo "<table border=1 width=100>";
+        echo "<tr>";
         for($j=1;$j<=9;$j++){
             $gob = $i * $j;
-            echo "<tr><td align=center> $i x $j = $gob </td></tr>";
+            echo "<td align=center> $i x $j = $gob </td>";
         }
-        echo "<br>";
-        echo "</table>";
+        echo "</tr>";
     }
+echo "</table>";
     
 ?>
