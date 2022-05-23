@@ -9,8 +9,6 @@ function hap($a, $b)
     }
     return $sum;
 }
-$from = 1;
-$to = 100;
 $total = hap($from, $to); 
-echo"$from ì—ì„œ $to ê¹Œì§€ì˜ í•© : $total";
+echo"$from ¿¡¼­ $to ±îÁöÀÇ ÇÕ : $total";
 ?>
